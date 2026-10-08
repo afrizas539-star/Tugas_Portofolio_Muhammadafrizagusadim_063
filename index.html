@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio Muhammad Afriza Gusadim - Mahasiswa Informatika Universitas Muhammadiyah Malang dengan spesialisasi UI/UX Design, Fotografi, Videografi, Editing, dan Graphic Design.">
+  <meta name="author" content="Muhammad Afriza Gusadim">
+  
+  <title>Muhammad Afriza Gusadim | Portfolio &amp; Resume Digital</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Stylesheet Utama (Pure CSS3) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================
+       HEADER & NAVIGATION
+       Menggunakan semantic <header> dan <nav> dengan navigasi responsif
+  ========================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="#home" class="logo" aria-label="Muhammad Afriza Gusadim">
+        <span class="logo-mark">MAG</span>
+        <span class="logo-text">Muhammad Afriza</span>
+      </a>
+
+      <!-- Checkbox toggle untuk hamburger menu mobile (Pure CSS tanpa JS) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Buka menu navigasi">
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Tombol menu navigasi">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <!-- Navigasi Utama Halaman -->
+      <nav class="main-nav" aria-label="Navigasi Utama">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link nav-cta-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =========================================================
+       MAIN CONTENT
+  ========================================================== -->
+  <main>
+
+    <!-- =======================================================
+         HERO SECTION (#home)
+         Bagian pembuka identitas mahasiswa dan ketertarikan visual
+    ======================================================== -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <!-- Kolom Teks Hero -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span>Creative Visual Enthusiast</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Muhammad Afriza <span class="highlight-text">Gusadim</span>
+          </h1>
+          
+          <p class="hero-subtitle">
+            Informatics Student &amp; Creative Visual Enthusiast
+          </p>
+          
+          <p class="hero-description">
+            Mahasiswa Informatika yang memiliki ketertarikan pada UI/UX, desain visual, fotografi, videografi, serta editing foto dan video.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Lihat Portfolio</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">Program Studi</span>
+              <span class="meta-value">Informatika</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Universitas</span>
+              <span class="meta-value">UMM Malang</span>
+            </div>
+            <div class="meta-divider"></div>
+            <div class="meta-item">
+              <span class="meta-label">Fokus Utama</span>
+              <span class="meta-value">Creative &amp; Visual</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Foto Profil Hero -->
+        <div class="hero-image-wrapper">
+          <div class="profile-card">
+            <div class="profile-glow"></div>
+            <div class="profile-image-container">
+              <img src="assets/profile.jpg" alt="Foto Profil Muhammad Afriza Gusadim" class="profile-img">
+            </div>
+            <div class="profile-floating-badge badge-top">
+              <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                <polyline points="21 15 16 10 5 21"></polyline>
+              </svg>
+              <span>Visual Designer</span>
+            </div>
+            <div class="profile-floating-badge badge-bottom">
+              <svg class="badge-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+              </svg>
+              <span>Content Creator</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         ABOUT ME SECTION (#about)
+         Informasi latar belakang personal dan ketertarikan bidang
+    ======================================================== -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Biografi Singkat</span>
+          <h2 class="section-title">Tentang Saya</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3 class="about-greeting">Halo, saya Afriza 👋</h3>
+            <p class="about-paragraph">
+              Saya adalah seorang mahasiswa program studi Informatika di <strong>Universitas Muhammadiyah Malang</strong>, Fakultas Teknik. Berada di lingkungan komputasi dan teknologi membuka pandangan saya bahwa perpaduan antara logika sistem dan estetika visual mampu menciptakan dampak komunikasi yang kuat.
+            </p>
+            <p class="about-paragraph">
+              Di samping bidang informatika, saya memiliki ketertarikan dan passion mendalam pada ranah <strong>kreatif dan visual</strong>. Saya sangat tertarik dengan <em>UI/UX Design</em> dan bagaimana rancangan antarmuka yang intuitif dapat memberikan pengalaman terbaik serta mempermudah pengguna dalam berinteraksi dengan produk digital.
+            </p>
+            <p class="about-paragraph">
+              Selain desain antarmuka, saya aktif mengasah minat di bidang fotografi dan videografi. Melalui lensa kamera, saya mengeksplorasi komposisi, pencahayaan, sudut pengambilan gambar, hingga storytelling sinematik. Kemampuan ini didukung oleh kecakapan dalam editing foto dan video untuk menghasilkan karya akhir yang berkarakter dan memiliki nilai estetika tinggi.
+            </p>
+            <p class="about-paragraph">
+              Saya juga mendalami desain grafis dan pembuatan konten visual kreatif. Dengan kemauan belajar yang tinggi, saya terus mengembangkan kemampuan visual ini melalui berbagai project kreatif dan eksperimen karya secara konsisten.
+            </p>
+          </div>
+
+          <aside class="about-highlights-wrapper" aria-label="Sorotan Profil">
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                  <path d="M2 17l10 5 10-5"></path>
+                  <path d="M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <h4>Fokus Bidang</h4>
+                <p>Kombinasi Informatika &amp; Karya Kreatif Visual</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <h4>Eksplorasi Media</h4>
+                <p>UI/UX, Fotografi, Videografi &amp; Motion Visual</p>
+              </div>
+            </div>
+
+            <div class="highlight-card">
+              <div class="highlight-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="highlight-info">
+                <h4>Pendekatan Kerja</h4>
+                <p>Presisi tata letak, estetika visual, &amp; pesan bermakna</p>
+              </div>
+            </div>
+
+            <div class="highlight-card highlight-quote-card">
+              <p class="quote-text">
+                "Kreativitas bukan sekadar memperindah tampilan, melainkan menyampaikan pesan dan pengalaman bermakna melalui visual."
+              </p>
+              <span class="quote-author">— Muhammad Afriza Gusadim</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         SKILLS SECTION (#skills)
+         5 Keahlian utama di bidang kreatif dan visual
+    ======================================================== -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Kompetensi Utama</span>
+          <h2 class="section-title">Keahlian</h2>
+          <div class="section-underline"></div>
+          <p class="section-description">
+            Kumpulan keahlian utama yang berfokus pada perancangan antarmuka, produksi konten visual, serta seni sinematografi dan editing.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Skill Card 1: UI/UX Design -->
+          <article class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="skill-title">UI/UX Design</h3>
+            <p class="skill-description">
+              Merancang tampilan dan pengalaman pengguna dengan memperhatikan layout, navigasi, usability, dan visual interface.
+            </p>
+            <div class="skill-tag">Interface &amp; Experience</div>
+          </article>
+
+          <!-- Skill Card 2: Fotografi -->
+          <article class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                <circle cx="12" cy="13" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="skill-title">Fotografi</h3>
+            <p class="skill-description">
+              Menghasilkan foto dengan memperhatikan komposisi, pencahayaan, angle, dan estetika visual.
+            </p>
+            <div class="skill-tag">Composition &amp; Lighting</div>
+          </article>
+
+          <!-- Skill Card 3: Videografi -->
+          <article class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+              </svg>
+            </div>
+            <h3 class="skill-title">Videografi</h3>
+            <p class="skill-description">
+              Membuat dan mengambil video dengan memperhatikan komposisi, pengambilan gambar, storytelling, dan visual.
+            </p>
+            <div class="skill-tag">Cinematography &amp; Story</div>
+          </article>
+
+          <!-- Skill Card 4: Photo & Video Editing -->
+          <article class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <line x1="20" y1="4" x2="8.12" y2="15.88"></line>
+                <line x1="14.47" y1="14.48" x2="20" y2="20"></line>
+                <line x1="8.12" y1="8.12" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="skill-title">Photo &amp; Video Editing</h3>
+            <p class="skill-description">
+              Mengolah foto dan video agar menghasilkan visual yang lebih menarik dan sesuai dengan kebutuhan.
+            </p>
+            <div class="skill-tag">Color Grading &amp; Retouch</div>
+          </article>
+
+          <!-- Skill Card 5: Graphic Design -->
+          <article class="skill-card">
+            <div class="skill-icon-wrapper">
+              <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                <path d="M2 2l7.586 7.586"></path>
+                <circle cx="11" cy="11" r="2"></circle>
+              </svg>
+            </div>
+            <h3 class="skill-title">Graphic Design</h3>
+            <p class="skill-description">
+              Membuat berbagai desain visual seperti poster, konten digital, branding, dan kebutuhan desain lainnya.
+            </p>
+            <div class="skill-tag">Digital Layout &amp; Branding</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         PROJECTS / PORTFOLIO SECTION (#projects)
+         Showcase karya kreatif: UI/UX, Fotografi, Videografi, dll.
+    ======================================================== -->
+    <section id="projects" class="projects-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Karya Pilihan</span>
+          <h2 class="section-title">Portfolio</h2>
+          <div class="section-underline"></div>
+          <p class="section-description">
+            Eksplorasi karya nyata yang menonjolkan estetika antarmuka, visual fotografi, dokumentasi video, dan grafis digital.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: UI/UX Design -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="assets/project-uiux.jpg" alt="Preview Project UI UX Mobile App Interface Muhammad Afriza" class="project-img">
+              <span class="project-category-badge">UI/UX</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta-row">
+                <span class="project-category">UI/UX Design</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Mobile App Interface</h3>
+              <p class="project-description">
+                Perancangan interface aplikasi mobile dengan fokus pada struktur layout, navigasi, dan pengalaman pengguna.
+              </p>
+              <div class="project-action">
+                <!-- Ganti tautan href="#" dengan URL demonstrasi atau prototipe Figma asli Anda -->
+                <a href="#" class="btn-text" aria-label="Lihat detail project Mobile App Interface">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-icon">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Photography -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="assets/project-photography.jpg" alt="Preview Project Photography Collection Muhammad Afriza" class="project-img">
+              <span class="project-category-badge">Photography</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta-row">
+                <span class="project-category">Photography</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Photography Collection</h3>
+              <p class="project-description">
+                Kumpulan hasil fotografi dengan fokus pada komposisi, pencahayaan, angle, dan storytelling visual.
+              </p>
+              <div class="project-action">
+                <!-- Ganti tautan href="#" dengan URL galeri foto Anda -->
+                <a href="#" class="btn-text" aria-label="Lihat detail project Photography Collection">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-icon">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Videography -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="assets/project-videography.jpg" alt="Preview Project Video Documentation Muhammad Afriza" class="project-img">
+              <span class="project-category-badge">Videography</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta-row">
+                <span class="project-category">Videography</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Video Documentation</h3>
+              <p class="project-description">
+                Project videografi yang berfokus pada dokumentasi kegiatan dan penyampaian cerita melalui visual.
+              </p>
+              <div class="project-action">
+                <!-- Ganti tautan href="#" dengan URL video dokumentasi YouTube/Vimeo Anda -->
+                <a href="#" class="btn-text" aria-label="Lihat detail project Video Documentation">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-icon">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Graphic Design -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="assets/project-design.jpg" alt="Preview Project Digital Design Collection Muhammad Afriza" class="project-img">
+              <span class="project-category-badge">Graphic Design</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta-row">
+                <span class="project-category">Graphic Design</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Digital Design Collection</h3>
+              <p class="project-description">
+                Kumpulan desain digital seperti poster, konten media sosial, dan kebutuhan visual lainnya.
+              </p>
+              <div class="project-action">
+                <!-- Ganti tautan href="#" dengan URL galeri Behance/Drive desain Anda -->
+                <a href="#" class="btn-text" aria-label="Lihat detail project Digital Design Collection">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-icon">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Photo & Video Editing -->
+          <article class="project-card">
+            <div class="project-image-box">
+              <img src="assets/project-editing.jpg" alt="Preview Project Creative Editing Muhammad Afriza" class="project-img">
+              <span class="project-category-badge">Editing</span>
+            </div>
+            <div class="project-content">
+              <div class="project-meta-row">
+                <span class="project-category">Photo &amp; Video Editing</span>
+                <span class="project-year">2026</span>
+              </div>
+              <h3 class="project-title">Creative Editing</h3>
+              <p class="project-description">
+                Hasil pengolahan foto dan video melalui proses editing untuk menghasilkan visual yang lebih menarik.
+              </p>
+              <div class="project-action">
+                <!-- Ganti tautan href="#" dengan URL showcase proses editing Anda -->
+                <a href="#" class="btn-text" aria-label="Lihat detail project Creative Editing">
+                  <span>View Project</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="arrow-icon">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         EDUCATION SECTION (#education)
+         Latar belakang pendidikan formal akademik
+    ======================================================== -->
+    <section id="education" class="education-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Jejak Akademik</span>
+          <h2 class="section-title">Pendidikan</h2>
+          <div class="section-underline"></div>
+        </div>
+
+        <div class="education-container">
+          <div class="timeline">
+            <!-- Timeline Item -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <article class="education-card">
+                <div class="education-badge">Pendidikan Sedang Berjalan</div>
+                <h3 class="institution-name">Universitas Muhammadiyah Malang</h3>
+                <div class="education-details">
+                  <span class="faculty-text">Fakultas Teknik</span>
+                  <span class="details-separator">•</span>
+                  <span class="program-text">Program Studi Informatika</span>
+                </div>
+                <p class="education-summary">
+                  Menempuh pendidikan tinggi di bidang Informatika dengan minat khusus pada integrasi teknologi informasi, desain antarmuka (UI/UX), dan kreasi konten multimedia visual yang komunikatif dan fungsional.
+                </p>
+                <div class="education-tags">
+                  <span class="tag-pill">Fakultas Teknik</span>
+                  <span class="tag-pill">Teknik Informatika</span>
+                  <span class="tag-pill">Visual Multimedia</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================
+         CONTACT SECTION (#contact)
+         Informasi kontak dan formulir pengiriman pesan
+    ======================================================== -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Mari Terhubung</span>
+          <h2 class="section-title">Kontak</h2>
+          <div class="section-underline"></div>
+          <p class="section-description">
+            Tertarik untuk berkolaborasi dalam project visual, desain UI/UX, atau dokumentasi kreatif? Silakan hubungi saya melalui saluran di bawah ini.
+          </p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Kolom Informasi Kontak -->
+          <div class="contact-info-panel">
+            <h3 class="contact-panel-title">Informasi Kontak</h3>
+            <p class="contact-panel-desc">
+              Jangan ragu untuk menyapa atau bertukar gagasan mengenai desain dan produksi visual.
+            </p>
+
+            <div class="contact-links-list">
+              <!-- Item Email -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="contact-label">Email</span>
+                  <!-- Ganti placeholder email berikut dengan email pribadi/akademik Anda -->
+                  <a href="mailto:afriza.gusadim@email.com" class="contact-value">afriza.gusadim@email.com</a>
+                </div>
+              </div>
+
+              <!-- Item Instagram -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="contact-label">Instagram</span>
+                  <!-- Ganti placeholder instagram berikut dengan username akun Anda -->
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="contact-value">@afrizagusadim</a>
+                </div>
+              </div>
+
+              <!-- Item LinkedIn -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="contact-label">LinkedIn</span>
+                  <!-- Ganti placeholder linkedin berikut dengan profile link Anda -->
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-value">Muhammad Afriza Gusadim</a>
+                </div>
+              </div>
+
+              <!-- Item Lokasi Kampus -->
+              <div class="contact-item">
+                <div class="contact-icon-box">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-detail">
+                  <span class="contact-label">Lokasi</span>
+                  <span class="contact-value">Malang, Jawa Timur, Indonesia</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Form Kontak -->
+          <div class="contact-form-panel">
+            <h3 class="contact-panel-title">Kirim Pesan</h3>
+            <p class="contact-panel-desc">
+              Isi formulir di bawah ini untuk mengirimkan pesan atau penawaran kerja sama.
+            </p>
+
+            <form class="contact-form" action="#" method="POST">
+              <div class="form-group">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="Masukkan nama lengkap Anda" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">Alamat Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="contoh: nama@domain.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subjek Pesan</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="Topik atau keperluan pesan" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Isi Pesan</label>
+                <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tuliskan pesan Anda secara jelas di sini..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit">
+                <span>Kirim Pesan</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="send-icon">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-mark">MAG</span>
+          <span class="logo-text">Muhammad Afriza</span>
+        </a>
+        <p class="footer-tagline">
+          Informatics Student &amp; Creative Visual Enthusiast
+        </p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Navigasi Footer">
+        <ul class="footer-nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 Muhammad Afriza Gusadim. All Rights Reserved.</p>
+        <p class="footer-academic-note">Tugas 1 Pemrograman Web Semester Ganjil TA 2026/2027</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
